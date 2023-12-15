@@ -3,11 +3,10 @@ package lunchBrowser;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
-import org.openqa.selenium.chrome.ChromeDriver;
 
 public class LoginTest {
 	public static void runLoginTest() {
-		   WebDriver driver = WebDriverManager.getDriver();
+		 WebDriver driver = WebDriverManager.getDriver();
 
 
         // Set the base URL for your application

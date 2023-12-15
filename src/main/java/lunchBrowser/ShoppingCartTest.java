@@ -16,7 +16,7 @@ public class ShoppingCartTest {
     try {
         // Navigate to the page with the list of movies
         driver.get("https://localhost:7258/Movies");
-     // Use a more specific wait condition to wait for the presence of a specific element
+        // Use a more specific wait condition to wait for the presence of a specific element
         WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(20));
 
         // Wait for the presence of the element with a specific XPath
